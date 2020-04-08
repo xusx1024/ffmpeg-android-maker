@@ -18,3 +18,4 @@ install:
   - sudo dpkg -i $HOME/nasm_2.14.02-1_amd64.deb
 script:
   - bash -e ffmpeg-android-maker.sh --enable-libdav1d --enable-libmp3lame --enable-libaom --android-api-level=18
+# 2020年4月8日18点00分 01 build
